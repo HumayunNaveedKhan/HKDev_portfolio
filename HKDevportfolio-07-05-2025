@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Humayun Khan - R&D Engineer Portfolio</title>
+  <meta name="description" content="Humayun Khan - R&D Engineer and Team Lead at HHRCM Lab, NCRA NEDUET, specializing in haptics, robotics, and industrial IoT.">
+  <meta name="keywords" content="Humayun Khan, R&D Engineer, Haptics, Robotics, Industrial IoT, NEDUET, NCRA, Innovation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Humayun Khan</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Expertise</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Achievements</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#stats">Stats</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/HapticVE.jpeg" alt="" data-aos="fade-in">
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Humayun Khan</h2>
+        <p><span class="typed" data-typed-items="R&D Engineer, Team Lead NCRA-NEDUET, Founder & CTO – RobAutoStem & Haptronica, Industrial Automation Architect, Embedded Systems Innovator, IIoT & Haptics Expert, Robotics Consultant, International Teleoperator"></span></p>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Humayun Khan">
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Humayun Khan</span></p>
+                <p><strong>Profile: </strong> <span>Electrical & Computer Systems Engineer, Team Lead at HHRCM Lab, NCRA NEDUET</span></p>
+                <p><strong>Email: </strong> <span>humayunnaveedkhan@amail.com | humayunkhan@neduet.edu.pk</span></p>
+                <p><strong>Phone: </strong> <span>+92 316 0121324</span></p>
+              </div>
+            </div>
+            <div class="skills-content skills-animation">
+              <h5>Skills</h5>
+              <div class="progress">
+                <span class="skill"><span>Haptics & Robotics</span> <i class="val">92%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>Embedded Systems</span> <i class="val">88%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>Industrial IoT</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>Cloud Computing</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>Cybersecurity</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About Me</h4>
+              <p>
+                I am an Electrical and Computer Systems Engineer with a Master’s in Computer Networks and System Security from NED University. As Team Lead at HHRCM Lab, NCRA NEDUET, I drive indigenous innovation in haptics, human-robot interaction, embedded systems, and industrial IoT.
+              </p>
+              <p>
+                My journey includes leading R&D for products like the NED-Smart Tape Measure, Industrial Pull Tester, and MDOF Robotic Arm, commercialized with partners like J&P Coats, Patel Hospital, and E-BEX. I’ve filed six patents, published in MDPI, and secured grants from NCRA, SRSP, and NRPU.
+              </p>
+              <p>
+                As CTO and Co-Founder of Haptronica and RobAutoStem, incubated under NIC Karachi, I’ve won PKR 1M at Sindh Innovative Startups Showcase 2025 and secured $25,000 in Google Cloud credits and $10,000 in AWS credits to scale our solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Leading indigenous innovation in haptics, robotics, and IoT for industrial and technological advancement</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Humayun Khan</h4>
+              <p><em>Electrical and Computer Systems Engineer with expertise in haptics, robotics, and industrial IoT, driving end-to-end product design, system integration, and commercialization at HHRCM Lab, NCRA NEDUET.</em></p>
+              <ul>
+                <li>HHRCM Lab, NCRA NEDUET, Karachi, Pakistan</li>
+                <li>+92 316 0121324</li>
+                <li>humayunnaveedkhan@amail.com</li>
+              </ul>
+            </div>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Engineering, Computer Networks and System Security</h4>
+              <h5>2023 - 2025</h5>
+              <p><em>NED University of Engineering and Technology, Karachi, Pakistan</em></p>
+              <p>Thesis: Controlled Utilization of Optimized Network Protocol for Network Jitter Compensation in Haptic Teleoperation Systems (CGPA: 3.85/4)</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Engineering, Electrical and Computer Systems</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>NED University of Engineering and Technology, Karachi, Pakistan</em></p>
+              <p>FYDP: Telepresence and Designing Interface for Communication (CGPA: 3.6/4)</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Team Lead, HHRCM Lab, NCRA NEDUET</h4>
+              <h5>May 2023 - Present</h5>
+              <p><em>National Centre of Robotics and Automation, Karachi, Pakistan</em></p>
+              <ul>
+                <li>Led design, development, and deployment of indigenous solutions like NED-Smart Tape Measure and Industrial Pull Tester</li>
+                <li>Managed procurement, project planning, Gantt charts, and technical documentation</li>
+                <li>Demonstrated products to provincial leadership, UNDP, and at APTEx'25</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Research Engineer/Lead, HHRCM Lab, NCRA NEDUET</h4>
+              <h5>July 2024 - Jan 2025</h5>
+              <p><em>Under Sindh Research Support Program, Karachi, Pakistan</em></p>
+              <ul>
+                <li>Developed Smart Industrial Liquid Level and Smart Oxygen Analyzer</li>
+                <li>Collaborated with industry partners like J&P Coats for commercialization</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Robotic Consultant, NCRA NEDUET</h4>
+              <h5>April 2024 - May 2024</h5>
+              <p><em>Under NRPU Grant, Karachi, Pakistan</em></p>
+              <ul>
+                <li>Consulted on 5DOF robotic arm for industrial packaging with 3-phase AC servo systems</li>
+                <li>Contributed to motion control and modular integration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Expertise</h2>
+        <p>Comprehensive technical skills driving innovation in R&D and engineering</p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Haptics & Teleoperation</h3>
+              </a>
+              <p>Expert in CHAI3D, OpenHaptics, and bilateral control for haptic virtual environments and teleoperation systems.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Embedded Systems</h3>
+              </a>
+              <p>Proficient in ESP32, STM32, FreeRTOS, and BareMetal for real-time control and sensor integration.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Industrial IoT</h3>
+              </a>
+              <p>Designed SCADA, PLC, and cloud-integrated solutions using MQTT, AWS, and EtherCAT for real-time monitoring.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Robotics & Mechatronics</h3>
+              </a>
+              <p>Developed MDOF robotic arms and gait control for humanoids using ORiN2 SDK and precision feedback.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Cloud Computing</h3>
+              </a>
+              <p>Skilled in AWS, Firebase, and Google Sheets API for data logging, visualization, and real-time dashboards.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Cybersecurity</h3>
+              </a>
+              <p>Experienced in SIEM, MITRE ATT&CK, and Wireshark for network defense and anomaly detection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section accent-background">
+      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter">6</span>
+              <p>Patents Filed</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter">11</span>
+              <p>Products Developed</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter">5</span>
+              <p>Publications</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter">3</span>
+              <p>Awards Won</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Stats Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Indigenous innovations driving industrial and technological advancement</p>
+      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-iot">IoT</li>
+            <li data-filter=".filter-robotics">Robotics</li>
+            <li data-filter=".filter-medical">Medical</li>
+            <li data-filter=".filter-industrial">Industrial</li>
+          </ul>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
+              <img src="assets/img/portfolio/ned-smt.jpg" class="img-fluid" alt="NED-Smart Tape Measure">
+              <div class="portfolio-info">
+                <h4>NED-Smart Tape Measure</h4>
+                <p>IoT-enabled device for precision measurement, cloud logging, and visualization. Patent filed; deployed commercially.</p>
+                <a href="assets/img/portfolio/NED-SMT.jpg" title="NED-Smart Tape Measure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
+              <img src="assets/img/portfolio/ned-pull-tester.jpg" class="img-fluid" alt="Industrial Pull Tester">
+              <div class="portfolio-info">
+                <h4>Industrial Pull Tester</h4>
+                <p>Tensile testing solution; Patent No. 144343 granted by IPO Pakistan; commercialized via RobAutoStem.</p>
+                <a href="assets/img/portfolio/ned-pull-tester.jpg" title="Industrial Pull Tester" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robotics">
+              <img src="assets/img/portfolio/mdof-arm.jpg" class="img-fluid" alt="MDOF Robotic Arm">
+              <div class="portfolio-info">
+                <h4>MDOF Robotic Arm</h4>
+                <p>Multi-DOF arm for automation and haptic research. Funded by NRPU ($8.8M); pilot tested.</p>
+                <a href="assets/img/portfolio/mdof-arm.jpg" title="MDOF Robotic Arm" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-medical">
+              <img src="assets/img/portfolio/smart-oxygen.jpg" class="img-fluid" alt="Smart Oxygen Analyzer">
+              <div class="portfolio-info">
+                <h4>Smart Oxygen Analyzer</h4>
+                <p>Real-time oxygen measurement for medical use. Patent filed; tested at Patel Hospital.</p>
+                <a href="assets/img/portfolio/smart-oxygen.jpg" title="Smart Oxygen Analyzer" data-gallery="portfolio-gallery-medical" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
+              <img src="assets/img/portfolio/e-iot.jpg" class="img-fluid" alt="E-IoT Energy Monitoring">
+              <div class="portfolio-info">
+                <h4>E-IoT Energy Monitoring</h4>
+                <p>IoT solution for energy and health tracking with cloud dashboards. Patent filed; testbed ready.</p>
+                <a href="assets/img/portfolio/e-iot.jpg" title="E-IoT Energy Monitoring" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
+              <img src="assets/img/portfolio/ned-sill.jpg" class="img-fluid" alt="Smart Industrial Liquid Level">
+              <div class="portfolio-info">
+                <h4>Smart Industrial Liquid Level</h4>
+                <p>Real-time flow and volume monitoring with cloud dashboards. Patent filed; commercialized to J&P Coats.</p>
+                <a href="assets/img/portfolio/ned-sill.jpg" title="Smart Industrial Liquid Level" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-medical">
+              <img src="assets/img/portfolio/cpap.jpg" class="img-fluid" alt="CPAP Device">
+              <div class="portfolio-info">
+                <h4>CPAP Device</h4>
+                <p>Smart respiratory support with IoT connectivity. Patent filed; funded by SRSP ($2.4M).</p>
+                <a href="assets/img/portfolio/cpap.jpg" title="CPAP Device" data-gallery="portfolio-gallery-medical" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
+              <img src="assets/img/portfolio/metervision.jpg" class="img-fluid" alt="MeterVision">
+              <div class="portfolio-info">
+                <h4>MeterVision</h4>
+                <p>AI-powered analog meter reader with cloud logging. Designed for utility and automation.</p>
+                <a href="assets/img/portfolio/metervision.jpg" title="MeterVision" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robotics">
+              <img src="assets/img/portfolio/shake-table.jpg" class="img-fluid" alt="Shake Table">
+              <div class="portfolio-info">
+                <h4>Shake Table</h4>
+                <p>Indigenous design for structural simulation. Patent filed; demonstrated for UNDP and CM Balochistan.</p>
+                <a href="assets/img/portfolio/shake-table.jpg" title="Shake Table" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section accent-background">
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Dr. Riaz Uddin</h3>
+                <h4>Associate Professor & Director, HHRCM-NCRA NEDUET</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Humayun's leadership in developing indigenous solutions like the NED-Pull Tester and Smart Industrial Liquid Level has been exceptional, driving innovation and commercialization at HHRCM Lab.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Muhammad Uzair Khan</h3>
+                <h4>Lecturer & PhD Scholar, HHRCM-NCRA NEDUET</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Humayun's expertise in haptics and IoT, combined with his project management skills, has elevated our lab's R&D, delivering impactful solutions for industry partners.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Reach out to collaborate on innovative R&D and engineering solutions</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>HHRCM Lab, NCRA NEDUET, Karachi, Pakistan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>+92 316 0121324</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>humayunnaveedkhan@amail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-links d-flex justify-content-center mt-4">
+          <a href="https://www.linkedin.com/in/humayunnaveedkhan" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/NCRANEDUET" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://humayunnaveedkhan.github.io/portfolio" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Humayun Khan</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/humayunnaveedkhan" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.facebook.com/NCRANEDUET" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://humayunnaveedkhan.github.io/portfolio" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
