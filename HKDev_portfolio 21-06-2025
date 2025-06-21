@@ -23,16 +23,12 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-        /* Portfolio Swiper */
         .portfolio-item {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             background: #fff;
-            width: 400px;
-            height: 400px;
-            margin: 0 auto;
         }
         .portfolio-item:hover {
             transform: translateY(-5px);
@@ -88,80 +84,33 @@
             display: block;
         }
         .portfolio-info {
-            padding: 10px;
+            padding: 20px;
             background: #fff;
             text-align: left;
-            height: 100px;
-            overflow: hidden;
         }
         .portfolio-info h4 {
             font-family: 'Poppins', sans-serif;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             font-weight: 600;
             color: #333;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
         }
         .portfolio-info p {
             font-family: 'Roboto', sans-serif;
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: #666;
-            line-height: 1.4;
-            margin-bottom: 5px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
+            line-height: 1.6;
+            margin-bottom: 15px;
         }
         .portfolio-info a {
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: #007bff;
-            margin-right: 10px;
+            margin-right: 15px;
             transition: color 0.3s;
         }
         .portfolio-info a:hover {
             color: #0056b3;
         }
-        /* Network Section (New) */
-        .network-item {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            background: #fff;
-            width: 300px;
-            height: 300px;
-            margin: 0 auto;
-        }
-        .network-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
-        }
-        .network-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-        .network-info {
-            padding: 10px;
-            background: #fff;
-            text-align: left;
-        }
-        .network-info h4 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 5px;
-        }
-        .network-info p {
-            font-family: 'Roboto', sans-serif;
-            font-size: 0.8rem;
-            color: #666;
-            line-height: 1.4;
-            margin-bottom: 0;
-        }
-        /* Hero Section */
         #hero {
             position: relative;
             min-height: 100vh;
@@ -240,30 +189,21 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
         }
-        /* Cursor Blink Animation */
         @keyframes blinkCursor {
             0%, 100% { border-right-color: #ffffff; }
             50% { border-right-color: transparent; }
         }
-        /* Responsive Adjustments */
         @media (max-width: 768px) {
             #hero h2 { font-size: 3rem; }
             #hero p { font-size: 1.3rem; }
             #hero .typed { font-size: 1.6rem; border-right: 3px solid #ffffff; }
             #hero { background-attachment: scroll; }
-            .portfolio-item, .network-item { width: 300px; height: 300px; }
-            .portfolio-item .swiper { height: 200px; }
-            .portfolio-info { height: 100px; }
         }
         @media (max-width: 576px) {
             #hero h2 { font-size: 2.5rem; }
             #hero p { font-size: 1.1rem; }
             #hero .typed { font-size: 1.4rem; border-right: 2px solid #ffffff; }
-            .portfolio-item, .network-item { width: 250px; height: 250px; }
-            .portfolio-item .swiper { height: 150px; }
-            .portfolio-info { height: 100px; }
         }
-        /* Animation Keyframes */
         @keyframes fadeInDown {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -282,7 +222,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Expertise</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#network">My Network</a></li>
+                    <li><a href="network.html">My Network</a></li>
                     <li class="dropdown">
                         <a href="#"><span>Achievements</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
@@ -316,10 +256,7 @@
                     <div class="col-md-6">
                         <div class="row justify-content-between gy-4">
                             <div class="col-lg-5">
-                                <picture>
-                                    <source srcset="assets/img/profile-img.webp" type="image/webp">
-                                    <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Profile Image" loading="lazy">
-                                </picture>
+                                <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Profile Image" loading="lazy">
                             </div>
                             <div class="col-lg-7 about-info">
                                 <p><strong>Name: </strong> <span>Humayun</span></p>
@@ -520,10 +457,7 @@
         </section>
         <!-- Stats Section -->
         <section id="stats" class="stats section accent-background">
-            <picture>
-                <source srcset="assets/img/portfolio/stats-bg.webp" type="image/webp">
-                <img src="assets/img/portfolio/stats-bg.jpg" alt="Stats Background" data-aos="fade-in" loading="lazy">
-            </picture>
+            <img src="assets/img/portfolio/stats-bg.jpg" alt="Stats Background" data-aos="fade-in" loading="lazy">
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-5">
                     <div class="col-lg-4 col-md-6">
@@ -580,10 +514,7 @@
                             <div class="swiper portfolio-swiper-ned-smt">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/NED-SMT.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/NED-SMT.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/NED-SMT.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="metadata" title="NED-Smart Tape Measure Demo">
@@ -592,16 +523,10 @@
                                         </video>
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/STM 1.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/STM 1.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/STM 1.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/IMG-20240910-WA0055.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/IMG-20240910-WA0055.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/IMG-20240910-WA0055.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -620,10 +545,7 @@
                             <div class="swiper portfolio-swiper-haptic-teleop">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/GTS.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/GTS.jpg" class="img-fluid" alt="Generalized Haptic Teleoperation" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/GTS.jpg" class="img-fluid" alt="Generalized Haptic Teleoperation" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="metadata" title="Generalized Haptic Teleoperation Demo">
@@ -638,7 +560,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Generalized Haptic Teleoperation</h4>
-                                <p>Modular system for haptic device teleoperation over varied networks with adaptive packet control.</p>
+                                <p>Developed a modular system enabling teleoperation of haptic devices over varied networks with adaptive packet control. Successfully demonstrated intercontinental teleoperation.</p>
                                 <a href="assets/img/portfolio/GTS.jpg" title="Generalized Haptic Teleoperation" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -648,10 +570,7 @@
                             <div class="swiper portfolio-swiper-haptic-ve">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Haptic Virtual Environments.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Haptic Virtual Environments.png" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Haptic Virtual Environments.png" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="metadata" title="Haptic Virtual Environment Demo">
@@ -666,16 +585,10 @@
                                         </video>
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/HapticVE.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/HapticVE.jpg" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/HapticVE.jpg" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Haptic VE 2.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Haptic VE 2.jpg" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Haptic VE 2.jpg" class="img-fluid" alt="Haptic Virtual Environment" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -684,7 +597,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Haptic Virtual Environment</h4>
-                                <p>Immersive virtual environments using CHAI3D and OpenHaptics for training and AR/VR.</p>
+                                <p>Designed immersive virtual environments using CHAI3D and OpenHaptics for training, AR/VR, and STEM education.</p>
                                 <a href="assets/img/portfolio/Haptic Virtual Environments.png" title="Haptic Virtual Environment" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -694,28 +607,16 @@
                             <div class="swiper portfolio-swiper-ned-sill">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/NED-SILL-02.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/NED-SILL-02.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/NED-SILL-02.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/NED-SILL-01.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/NED-SILL-01.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/NED-SILL-01.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/NED-SILL at JP Coats.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/NED-SILL at JP Coats.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/NED-SILL at JP Coats.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/luckytex.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/luckytex.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/luckytex.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -724,7 +625,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Smart Industrial Liquid Level</h4>
-                                <p>Real-time flow and volume monitoring with cloud dashboards. Commercialized to J&P Coats.</p>
+                                <p>Real-time flow and volume monitoring with cloud dashboards. Patent filed; commercialized to J&P Coats.</p>
                                 <a href="assets/img/portfolio/NED-SILL-02.png" title="Smart Industrial Liquid Level" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -734,16 +635,10 @@
                             <div class="swiper portfolio-swiper-pull-tester">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Suture.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Suture.png" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Suture.png" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/SPT 1.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/SPT 1.jpg" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/SPT 1.jpg" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -752,7 +647,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Industrial Pull Tester</h4>
-                                <p>Tensile testing solution; Patent No. 144343 granted; commercialized via RobAutoStem.</p>
+                                <p>Tensile testing solution; Patent No. 144343 granted by IPO Pakistan; commercialized via RobAutoStem.</p>
                                 <a href="assets/img/portfolio/Suture.png" title="Industrial Pull Tester" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -762,10 +657,7 @@
                             <div class="swiper portfolio-swiper-mdof-arm">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/MDOF RA.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/MDOF RA.jpg" class="img-fluid" alt="MDOF Robotic Arm" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/MDOF RA.jpg" class="img-fluid" alt="MDOF Robotic Arm" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="metadata" title="MDOF Robotic Arm Demo">
@@ -774,10 +666,7 @@
                                         </video>
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/teleoperated denso.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/teleoperated denso.jpg" class="img-fluid" alt="MDOF Robotic Arm" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/teleoperated denso.jpg" class="img-fluid" alt="MDOF Robotic Arm" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -786,7 +675,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>MDOF Robotic Arm</h4>
-                                <p>Multi-DOF arm for automation and haptic research. Funded by NRPU; patent filed.</p>
+                                <p>Multi-DOF arm for automation and haptic research. Funded by NRPU (PKR 8.8M); patent filed; pilot tested.</p>
                                 <a href="assets/img/portfolio/MDOF RA.jpg" title="MDOF Robotic Arm" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -796,16 +685,10 @@
                             <div class="swiper portfolio-swiper-oxygen-analyzer">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Oxygen Analzer 1.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Oxygen Analzer 1.jpg" class="img-fluid" alt="Smart Oxygen Analyzer" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Oxygen Analzer 1.jpg" class="img-fluid" alt="Smart Oxygen Analyzer" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Oxygen analyzer gp.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Oxygen analyzer gp.jpg" class="img-fluid" alt="Smart Oxygen Analyzer" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Oxygen analyzer gp.jpg" class="img-fluid" alt="Smart Oxygen Analyzer" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -824,16 +707,10 @@
                             <div class="swiper portfolio-swiper-e-iot">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/eiot-1.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/eiot-1.jpg" class="img-fluid" alt="E-IoT Energy Monitoring" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/eiot-1.jpg" class="img-fluid" alt="E-IoT Energy Monitoring" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/eiot-2.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/eiot-2.jpg" class="img-fluid" alt="E-IoT Energy Monitoring" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/eiot-2.jpg" class="img-fluid" alt="E-IoT Energy Monitoring" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -842,7 +719,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>E-IoT Energy Monitoring</h4>
-                                <p>IoT solution for energy and health tracking with cloud dashboards.</p>
+                                <p>IoT solution for energy and health tracking with cloud dashboards. Being tested in multiple industrial units.</p>
                                 <a href="assets/img/portfolio/eiot-2.jpg" title="E-IoT Energy Monitoring" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -852,10 +729,7 @@
                             <div class="swiper portfolio-swiper-cpap">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Cpap.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Cpap.png" class="img-fluid" alt="CPAP Device" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Cpap.png" class="img-fluid" alt="CPAP Device" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -864,7 +738,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>CPAP Device</h4>
-                                <p>Smart respiratory support with IoT connectivity. Patent filed.</p>
+                                <p>Smart respiratory support with IoT connectivity. Patent filed; funded by SRSP (PKR 2.4M).</p>
                                 <a href="assets/img/portfolio/Cpap.png" title="CPAP Device" data-gallery="portfolio-gallery-medical" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -874,16 +748,10 @@
                             <div class="swiper portfolio-swiper-metervision">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/metervision-1.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/metervision-1.jpg" class="img-fluid" alt="MeterVision" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/metervision-1.jpg" class="img-fluid" alt="MeterVision" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/metervision-2.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/metervision-2.jpg" class="img-fluid" alt="MeterVision" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/metervision-2.jpg" class="img-fluid" alt="MeterVision" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -892,7 +760,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>MeterVision</h4>
-                                <p>AI-powered analog meter reader with cloud logging for utility automation.</p>
+                                <p>AI-powered analog meter reader with cloud logging. Designed for utility and automation.</p>
                                 <a href="assets/img/portfolio/metervision-1.jpg" title="MeterVision" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -902,16 +770,10 @@
                             <div class="swiper portfolio-swiper-shake-table">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Shake table-Humayun-Dr. Sarosh Lodi.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Shake table-Humayun-Dr. Sarosh Lodi.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Shake table-Humayun-Dr. Sarosh Lodi.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/shaketable4.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/shaketable4.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/shaketable4.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="metadata" title="Shake Table Demo">
@@ -920,10 +782,7 @@
                                         </video>
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Shaketable-dem.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Shaketable-dem.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Shaketable-dem.jpg" class="img-fluid" alt="Shake Table" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -932,7 +791,7 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Shake Table</h4>
-                                <p>Indigenous design for structural simulation and strength testing.</p>
+                                <p>Indigenous design for structural simulation and strength testing. Demonstrated to UNDP dignitaries, CM Balochistan and provincial leadership.</p>
                                 <a href="assets/img/portfolio/Shake table-Humayun-Dr. Sarosh Lodi.jpg" title="Shake Table" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
@@ -942,10 +801,7 @@
                             <div class="swiper portfolio-swiper-electric-car">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <picture>
-                                            <source srcset="assets/img/portfolio/Formula Electric Car NED EEN.webp" type="image/webp">
-                                            <img src="assets/img/portfolio/Formula Electric Car NED EEN.jpg" class="img-fluid" alt="Formula Electric Car NED EEN" loading="lazy">
-                                        </picture>
+                                        <img src="assets/img/portfolio/Formula Electric Car NED EEN.jpg" class="img-fluid" alt="Formula Electric Car NED EEN" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -954,64 +810,80 @@
                             </div>
                             <div class="portfolio-info">
                                 <h4>Formula Electric Car NED EEN</h4>
-                                <p>Led electrical design, achieving 4th place in Formula SAE-A 2020.</p>
+                                <p>Led electrical design for power distribution, achieving 4th place globally in Formula SAE-A 2020 AustralAsia.</p>
                                 <a href="assets/img/portfolio/Formula Electric Car NED EEN.jpg" title="Formula Electric Car NED EEN" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- My Network Section (New) -->
-        <section id="network" class="network section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2>My Network</h2>
-                <p>Showcasing client interactions, work, and professional engagements</p>
-            </div>
-            <div class="container">
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-clients">Clients</li>
-                        <li data-filter=".filter-work">Work</li>
-                        <li data-filter=".filter-events">Events</li>
-                    </ul>
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                        <!-- Client Interaction 1 -->
-                        <div class="col-lg-4 col-md-6 network-item isotope-item filter-clients">
-                            <picture>
-                                <source srcset="assets/img/network/client-meeting-1.webp" type="image/webp">
-                                <img src="assets/img/network/client-meeting-1.jpg" class="img-fluid" alt="Client Meeting 1" loading="lazy">
-                            </picture>
-                            <div class="network-info">
-                                <h4>Client Meeting with J&P Coats</h4>
-                                <p>Discussing Smart Industrial Liquid Level deployment</p>
+                        <!-- Smart Cammeasure (New) -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
+                            <div class="swiper portfolio-swiper-smart-cammeasure">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/smart-cammeasure-1.jpg" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/smart-cammeasure-2.jpg" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Smart Cammeasure</h4>
+                                <p>AI-powered camera-based measurement system for industrial applications.</p>
+                                <a href="assets/img/portfolio/smart-cammeasure-1.jpg" title="Smart Cammeasure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                        <!-- Work 1 -->
-                        <div class="col-lg-4 col-md-6 network-item isotope-item filter-work">
-                            <picture>
-                                <source srcset="assets/img/network/work-lab-1.webp" type="image/webp">
-                                <img src="assets/img/network/work-lab-1.jpg" class="img-fluid" alt="Working in Lab 1" loading="lazy">
-                            </picture>
-                            <div class="network-info">
-                                <h4>Lab Work on Haptic Systems</h4>
-                                <p>Testing haptic teleoperation at HHRCM Lab</p>
+                        <!-- BMS for EVs (New) -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
+                            <div class="swiper portfolio-swiper-bms-evs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/bms-evs-1.jpg" class="img-fluid" alt="BMS for EVs" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/bms-evs-2.jpg" class="img-fluid" alt="BMS for EVs" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>BMS for EVs</h4>
+                                <p>Battery Management System for electric vehicles, optimizing performance and safety.</p>
+                                <a href="assets/img/portfolio/bms-evs-1.jpg" title="BMS for EVs" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                        <!-- Event 1 -->
-                        <div class="col-lg-4 col-md-6 network-item isotope-item filter-events">
-                            <picture>
-                                <source srcset="assets/img/network/event-showcase-1.webp" type="image/webp">
-                                <img src="assets/img/network/event-showcase-1.jpg" class="img-fluid" alt="Event Showcase 1" loading="lazy">
-                            </picture>
-                            <div class="network-info">
-                                <h4>Sindh Innovative Startups 2025</h4>
-                                <p>Presenting Haptronica solutions</p>
+                        <!-- Quadruped Robot (New) -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robotics">
+                            <div class="swiper portfolio-swiper-quadruped-robot">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/quadruped-robot-1.jpg" class="img-fluid" alt="Quadruped Robot" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="video">
+                                        <video controls muted playsinline preload="metadata" title="Quadruped Robot Demo">
+                                            <source src="assets/img/portfolio/quadruped-robot-demo.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Quadruped Robot</h4>
+                                <p>Autonomous quadruped robot for surveillance and research.</p>
+                                <a href="assets/img/portfolio/quadruped-robot-1.jpg" title="Quadruped Robot" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
-                        <!-- Add more network items as needed -->
                     </div>
                 </div>
             </div>
@@ -1101,7 +973,7 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
-    <!-- Custom JS -->
+    <!-- Custom JS for Portfolio Carousels -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Initialize Typed.js for Hero Section
@@ -1125,11 +997,12 @@
                 loopCount: Infinity
             });
 
-            // Portfolio and Network Carousels
-            function initializeSwiper(selector, isPortfolio = true) {
-                const container = isPortfolio ? '.isotope-container' : '.network .isotope-container';
+            // Portfolio Carousels: Dynamic Video Duration
+            function initializePortfolioSwiper(selector) {
+                const defaultImageDelay = 5000; // 5 seconds for images
                 const slides = document.querySelectorAll(selector + '.swiper-slide');
                 const hasMultipleSlides = slides.length > 1;
+
                 let swiperInstance = new Swiper(selector, {
                     loop: hasMultipleSlides,
                     speed: 600,
@@ -1148,7 +1021,7 @@
                         hiddenClass: 'swiper-button-hidden'
                     },
                     autoplay: {
-                        delay: 5000,
+                        delay: defaultImageDelay,
                         disableOnInteraction: false
                     },
                     on: {
@@ -1167,53 +1040,50 @@
                             });
                             const activeSlide = this.slides[this.activeIndex];
                             const slideType = activeSlide.getAttribute('data-type');
+                            let delay;
                             if (slideType === 'video') {
                                 const activeVideo = activeSlide.querySelector('video');
                                 activeVideo.play().catch(error => console.log('Video play error:', error));
-                                const delay = (activeVideo.duration || 10) * 1000;
-                                this.autoplay.stop();
-                                this.params.autoplay.delay = delay;
-                                this.autoplay.start();
+                                delay = (activeVideo.duration || 10) * 1000;
+                            } else {
+                                delay = defaultImageDelay;
                             }
+                            this.autoplay.stop();
+                            this.params.autoplay.delay = delay;
+                            this.autoplay.start();
                         }
                     }
                 });
+
                 const videos = document.querySelectorAll(selector + ' video');
                 videos.forEach(video => video.load());
+
                 return swiperInstance;
             }
 
-            // Initialize Portfolio Swipers
-            const portfolioSwipers = [
-                '.portfolio-swiper-ned-smt',
-                '.portfolio-swiper-haptic-teleop',
-                '.portfolio-swiper-haptic-ve',
-                '.portfolio-swiper-ned-sill',
-                '.portfolio-swiper-pull-tester',
-                '.portfolio-swiper-mdof-arm',
-                '.portfolio-swiper-oxygen-analyzer',
-                '.portfolio-swiper-e-iot',
-                '.portfolio-swiper-cpap',
-                '.portfolio-swiper-metervision',
-                '.portfolio-swiper-shake-table',
-                '.portfolio-swiper-electric-car'
-            ].map(selector => initializeSwiper(selector));
+            // Initialize Swiper for each portfolio item
+            initializePortfolioSwiper('.portfolio-swiper-ned-smt');
+            initializePortfolioSwiper('.portfolio-swiper-haptic-teleop');
+            initializePortfolioSwiper('.portfolio-swiper-haptic-ve');
+            initializePortfolioSwiper('.portfolio-swiper-ned-sill');
+            initializePortfolioSwiper('.portfolio-swiper-pull-tester');
+            initializePortfolioSwiper('.portfolio-swiper-mdof-arm');
+            initializePortfolioSwiper('.portfolio-swiper-oxygen-analyzer');
+            initializePortfolioSwiper('.portfolio-swiper-e-iot');
+            initializePortfolioSwiper('.portfolio-swiper-cpap');
+            initializePortfolioSwiper('.portfolio-swiper-metervision');
+            initializePortfolioSwiper('.portfolio-swiper-shake-table');
+            initializePortfolioSwiper('.portfolio-swiper-electric-car');
+            initializePortfolioSwiper('.portfolio-swiper-smart-cammeasure');
+            initializePortfolioSwiper('.portfolio-swiper-bms-evs');
+            initializePortfolioSwiper('.portfolio-swiper-quadruped-robot');
 
-            // Initialize Isotope for Portfolio
-            imagesLoaded('.isotope-container', function () {
-                const iso = new Isotope('.isotope-container', {
-                    itemSelector: '.portfolio-item',
-                    layoutMode: 'masonry'
-                });
-                iso.layout();
+            // Refresh Isotope layout after Swiper initialization
+            const iso = new Isotope('.isotope-container', {
+                itemSelector: '.portfolio-item',
+                layoutMode: 'masonry'
             });
-
-            // Initialize Isotope for Network
-            imagesLoaded('.network .isotope-container', function () {
-                const iso = new Isotope('.network .isotope-container', {
-                    itemSelector: '.network-item',
-                    layoutMode: 'masonry'
-                });
+            imagesLoaded('.isotope-container', function () {
                 iso.layout();
             });
 
