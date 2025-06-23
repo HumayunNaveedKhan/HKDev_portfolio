@@ -523,7 +523,7 @@
                             <h4>Master of Engineering, Computer Networks and System Security</h4>
                             <h5>2023 - 2025</h5>
                             <p><em>NED University of Engineering and Technology, Karachi, Pakistan</em></p>
-                            <p>Thesis: Controlled Utilization of Optimized Network Protocol for Network Jitter Compensation in Haptic Teleoperation Systems (CGPA: 3.85/4)</p>
+                            <p>Thesis: Controlled Utilization of Optimized Network Protocol for Network Jitter Compensation in Haptic Teleoperation Systems (CGPA: 3.89/4)</p>
                         </div>
                         <div class="resume-item">
                             <h4>Bachelor of Engineering, Electrical and Computer Systems</h4>
@@ -707,8 +707,67 @@
                     </ul>
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
                         <!-- Row 1 -->
-                        <!-- Shake Table -->
+                        <!-- NED-Smart Tape Measure -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
+                            <div class="swiper portfolio-swiper-ned-smt">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/NED-SMT.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="video">
+                                        <video controls muted playsinline preload="none" title="NED-Smart Tape Measure Demo">
+                                            <source src="assets/img/portfolio/NED SMT -Soorty.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/STM 1.webp" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/IMG-20240910-WA0055.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>NED-Smart Tape Measure</h4>
+                                <p>IoT-enabled device for precision measurement, cloud logging, and visualization. Patent filed; deployed commercially.</p>
+                                <a href="assets/img/portfolio/NED-SMT.jpg" title="NED-Smart Tape Measure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- Generalized Haptic Teleoperation -->
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robotics">
+                            <div class="swiper portfolio-swiper-haptic-teleop">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/GTS.webp" class="img-fluid" alt="Generalized Haptic Teleoperation" loading="lazy">
+                                    </div>
+                                    <div class="swiper-slide" data-type="video">
+                                        <video controls muted playsinline preload="none" title="Generalized Haptic Teleoperation Demo">
+                                            <source src="assets/img/portfolio/ITO.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/Intercontinental haptic teleop.webp" class="img-fluid" alt="Generalized Haptic Teleoperation" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="portfolio-info">
+                                <h4>Generalized Haptic Teleoperation</h4>
+                                <p>Developed a modular system enabling teleoperation of haptic devices over varied networks with adaptive packet control. Successfully demonstrated intercontinental teleoperation.</p>
+                                <a href="assets/img/portfolio/GTS.webp" title="Generalized Haptic Teleoperation" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- Shake Table -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
                             <div class="swiper portfolio-swiper-shake-table">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
@@ -735,62 +794,6 @@
                                 <h4>Shake Table</h4>
                                 <p>Indigenous design for structural simulation and strength testing. Demonstrated to UNDP dignitaries, CM Balochistan and provincial leadership.</p>
                                 <a href="assets/img/portfolio/Shake table-Humayun-Dr. Sarosh Lodi.jpg" title="Shake Table" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                        <!-- NED-Smart Tape Measure -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-iot">
-                            <div class="swiper portfolio-swiper-ned-smt">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/NED-SMT.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                    </div>
-                                    <div class="swiper-slide" data-type="video">
-                                        <video controls muted playsinline preload="none" title="NED-Smart Tape Measure Demo">
-                                            <source src="assets/img/portfolio/NED SMT -Soorty.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                    <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/STM 1.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                    </div>
-                                    <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/IMG-20240910-WA0055.jpg" class="img-fluid" alt="NED-Smart Tape Measure" loading="lazy">
-                                    </div>
-                                </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-pagination"></div>
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>NED-Smart Tape Measure</h4>
-                                <p>IoT-enabled device for precision measurement, cloud logging, and visualization. Patent filed; deployed commercially.</p>
-                                <a href="assets/img/portfolio/NED-SMT.jpg" title="NED-Smart Tape Measure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div>
-                        <!-- Generalized Haptic Teleoperation -->
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-robotics">
-                            <div class="swiper portfolio-swiper-haptic-teleop">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/GTS.jpg" class="img-fluid" alt="Generalized Haptic Teleoperation" loading="lazy">
-                                    </div>
-                                    <div class="swiper-slide" data-type="video">
-                                        <video controls muted playsinline preload="none" title="Generalized Haptic Teleoperation Demo">
-                                            <source src="assets/img/portfolio/ITO.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-pagination"></div>
-                            </div>
-                            <div class="portfolio-info">
-                                <h4>Generalized Haptic Teleoperation</h4>
-                                <p>Developed a modular system enabling teleoperation of haptic devices over varied networks with adaptive packet control. Successfully demonstrated intercontinental teleoperation.</p>
-                                <a href="assets/img/portfolio/GTS.jpg" title="Generalized Haptic Teleoperation" data-gallery="portfolio-gallery-robotics" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -841,7 +844,7 @@
                                     </div>
                                     <div class="swiper-slide" data-type="video">
                                         <video controls muted playsinline preload="none" title="MDOF Robotic Arm Demo">
-                                            <source src="assets/img/portfolio/NED Industrial Robotic Arm 1080p LScape.mkv" type="video/mp4">
+                                            <source src="assets/img/portfolio/NED Industrial Robotic Arm 1080p LScape.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -865,16 +868,16 @@
                             <div class="swiper portfolio-swiper-ned-sill">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/NED-SILL-02.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
+                                        <img src="assets/img/portfolio/NED-SILL-01.webp" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/NED-SILL-01.png" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
+                                        <img src="assets/img/portfolio/NED-SILL-02.webp" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
                                         <img src="assets/img/portfolio/NED-SILL at JP Coats.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/luckytex.jpg" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
+                                        <img src="assets/img/portfolio/luckytex.webp" class="img-fluid" alt="Smart Industrial Liquid Level" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -884,7 +887,7 @@
                             <div class="portfolio-info">
                                 <h4>Smart Industrial Liquid Level</h4>
                                 <p>Real-time flow and volume monitoring with cloud dashboards. Patent filed; commercialized to J&P Coats.</p>
-                                <a href="assets/img/portfolio/NED-SILL-02.png" title="Smart Industrial Liquid Level" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="assets/img/portfolio/NED-SILL-02.webp" title="Smart Industrial Liquid Level" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -897,7 +900,7 @@
                                         <img src="assets/img/portfolio/Suture.png" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/SPT 1.jpg" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
+                                        <img src="assets/img/portfolio/SPT 1.webp" class="img-fluid" alt="Industrial Pull Tester" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -1022,14 +1025,17 @@
                             <div class="swiper portfolio-swiper-bms-ev">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/BMS-EV-1.jpg" class="img-fluid" alt="Battery Management System for EVs" loading="lazy">
+                                        <img src="assets/img/portfolio/EV Battery management.webp" class="img-fluid" alt="Battery Management System for EVs" loading="lazy">
                                     </div>
-                                    <div class="swiper-slide" data-type="video">
-                                        <video controls muted playsinline preload="none" title="BMS for EVs Demo">
-                                            <source src="assets/img/portfolio/BMS-EV-demo.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
+                                    <div class="swiper-slide" data-type="image">
+                                        <img src="assets/img/portfolio/EV 2.webp" class="img-fluid" alt="Battery Management System for EVs" loading="lazy">
                                     </div>
+                                    <!--<div class="swiper-slide" data-type="video">
+                    <video controls muted playsinline preload="none" title="BMS for EVs Demo">
+                        <source src="assets/img/portfolio/BMS-EV-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>-->
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
@@ -1038,7 +1044,7 @@
                             <div class="portfolio-info">
                                 <h4>Battery Management System for EVs</h4>
                                 <p>Developed for E-BEX, manages LiFePO4 batteries for electric bikes with cell monitoring, SoC, and safety protections.</p>
-                                <a href="assets/img/portfolio/BMS-EV-1.jpg" title="Battery Management System for EVs" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="assets/img/portfolio/EV Battery management.webp" title="Battery Management System for EVs" data-gallery="portfolio-gallery-industrial" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -1047,11 +1053,11 @@
                             <div class="swiper portfolio-swiper-cammeasure">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/Cammeasure-1.jpg" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
+                                        <img src="assets/img/portfolio/Smart Cammeasure.webp" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
                                     </div>
-                                    <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/Cammeasure-2.jpg" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
-                                    </div>
+                                    <!--<div class="swiper-slide" data-type="image">
+                    <img src="assets/img/portfolio/Cammeasure-2.jpg" class="img-fluid" alt="Smart Cammeasure" loading="lazy">
+                </div>-->
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
@@ -1060,7 +1066,7 @@
                             <div class="portfolio-info">
                                 <h4>Smart Cammeasure</h4>
                                 <p>Computer vision-based textile/garment measurement system with cloud-based real-time dashboards. Trialed with MEB and Soorty.</p>
-                                <a href="assets/img/portfolio/Cammeasure-1.jpg" title="Smart Cammeasure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="assets/img/portfolio/Smart Cammeasure.webp" title="Smart Cammeasure" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -1069,10 +1075,10 @@
                             <div class="swiper portfolio-swiper-pet-tracker">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/Pet-Tracker-1.jpg" class="img-fluid" alt="Pet GPS Tracker" loading="lazy">
+                                        <img src="assets/img/portfolio/Pet-GPS.webp" class="img-fluid" alt="Pet GPS Tracker" loading="lazy">
                                     </div>
                                     <div class="swiper-slide" data-type="image">
-                                        <img src="assets/img/portfolio/Pet-Tracker-2.jpg" class="img-fluid" alt="Pet GPS Tracker" loading="lazy">
+                                        <img src="assets/img/portfolio/pet GPS tracker.webp" class="img-fluid" alt="Pet GPS Tracker" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="swiper-button-next"></div>
@@ -1082,7 +1088,7 @@
                             <div class="portfolio-info">
                                 <h4>Pet GPS Tracker</h4>
                                 <p>Compact (100x30x80mm) hobby project with GPS, GNSS, GSM, and IoT for live Google Maps tracking via app. Sold to offshore client.</p>
-                                <a href="assets/img/portfolio/Pet-Tracker-1.jpg" title="Pet GPS Tracker" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="assets/img/portfolio/pet GPS tracker.webp" title="Pet GPS Tracker" data-gallery="portfolio-gallery-iot" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
@@ -1229,22 +1235,22 @@
             // Initialize Typed.js for Hero Section
             new Typed('.typed', {
                 strings: [
-                    "R&D Engineer",
-                    "Team Lead NCRA-NEDUET",
-                    "Founder & CTO – RobAutoStem & Haptronica",
-                    "Industrial Automation Architect",
-                    "Embedded Systems Innovator",
-                    "IIoT & Haptics Expert",
-                    "Robotics Consultant",
-                    "International Teleoperator"
+                    //"R&D Engineer",
+                    //"Team Lead NCRA-NEDUET",
+                    //"Founder & CTO – RobAutoStem & Haptronica",
+                    //"Industrial Automation Architect",
+                    //"Embedded Systems Innovator",
+                    //"IIoT & Haptics Expert",
+                    //"Robotics Consultant",
+                    //"International Teleoperator"
                 ],
-                typeSpeed: 100,
-                backSpeed: 50,
-                backDelay: 2000,
-                startDelay: 500,
-                smartBackspace: true,
-                loop: true,
-                loopCount: Infinity
+                //typeSpeed: 100,
+                //backSpeed: 50,
+                //backDelay: 2000,
+                //startDelay: 500,
+                //smartBackspace: true,
+                //loop: true,
+                //loopCount: Infinity
             });
 
             // Portfolio Carousels: Dynamic Video Duration
